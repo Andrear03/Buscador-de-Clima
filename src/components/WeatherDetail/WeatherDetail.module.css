@@ -1,0 +1,33 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+.container h2 {
+    font-size: 2rem;
+}
+
+.corruent{
+    font-size: 6rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.temperature{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.temperature p {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.temperature span {
+    font-weight: 500;
+    font-size: 1.5rem;
+}

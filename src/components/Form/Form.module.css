@@ -1,0 +1,43 @@
+.form,
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form input[type="text"],
+.form select {
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 400; /* Puedes quitar este si prefieres un solo peso */
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.field input::placeholder,
+.field select::placeholder { /* Aplicar el placeholder correctamente */
+    color: var(--white);
+}
+
+.submit{
+    background-color:  var(--primary);
+    border:none;
+    color:var(--white);
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: bold; 
+
+}

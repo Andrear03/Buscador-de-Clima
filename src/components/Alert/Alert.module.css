@@ -1,0 +1,9 @@
+.alert{
+    text-align: center;
+    margin: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color:white;
+    font-weight: 600;
+}
